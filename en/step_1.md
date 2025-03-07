@@ -49,7 +49,7 @@ set rotation style [left-right v]
 - **Sound Management:** Name sounds based on function (e.g., "jump sound", "background music"). Keep audio clips concise to maintain performance.
 
 ### 6. Variables and Lists
-- **Scope:** Determine appropriate scope (sprite-specific or global) based on usage context.
+- **Scope:** Determine appropriate scope (sprite-specific or global) based on usage context. Use **global** scope as default unless sprite-specific is absolutely required.
 - **Initialisation:** Always initialise variables at the beginning of scripts to ensure they have defined initial values.
 
 ```blocks3
