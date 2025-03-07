@@ -62,6 +62,15 @@ set [player score v] to (0)
 
 ### 7. Instructional style
 - **Highlighting** Highlight text that refers to a block using the colour associated with that block. (e.g) `go to x:100 y:50`{:class="block3motion"}, `delete this clone`{:class="block3control"}
+- **Sprite identity** Include an image of the sprite that the script is attached to.
+
+![player one sprite](images/player_one.png)
+```blocks3
+when flag clicked
+go to x:(0) y:(0)
+say [hello!]
+```
+
 - **Scratchblocks** Use [Scratchblocks](https://scratchblocks.github.io/#?style=scratch3&script=) to create PNG code blocks for online use or SVG code blocks for printed use. Save the code used for easy maintenance of the instructions. (Scratchblocks can be saved as a [URL](https://scratchblocks.github.io/#?style=scratch3&script=when%20flag%20clicked%0Ago%20to%20x%3A(0)%20y%3A(0)%0Aturn%20cw%20(15)%20degrees%0Asay%20%5Bhello%5D%0A))
 
 ```
