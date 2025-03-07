@@ -1,8 +1,8 @@
 ### Scratch Style Guide
 
 ### 1. Settings and Setup
-- Use the High Contrast Colour mode for improved readability.
-- Always give the project a name
+- Use the High Contrast Color Mode for improved readability.
+- Always give the project a name.
 ![project name text entry](images/project-name.png)
 
 ### 2. Editor Terminology
@@ -13,6 +13,7 @@
 - **Sprites and Backdrops:** Use descriptive names reflecting their role or appearance. Rename defaults like "sprite1" to "hero" or "player".
 - **Case:** Use lower case for all names. Separate words with spaces rather than underscores or capital letters.
 - **Variables and Lists:** Choose clear and descriptive names, such as "score" or "enemy list".
+
 ```blocks3
 change [cat score v] by (1) 
 ```
@@ -61,4 +62,8 @@ set [player score v] to (0)
 
 ### 7. Instructional style
 - **Highlighting** Highlight text that refers to a block using the colour associated with that block. (e.g) `go to x:100 y:50`{:class="block3motion"}, `delete this clone`{:class="block3control"}
-- **Scratchblocks** Use [Scratchblocks](https://scratchblocks.github.io/#?style=scratch3&script=) to create PNG code blocks for online use or SVG code blocks for printed use. Save the code used for easy maintenance of the instructions. (Scratchblocks can be saved as a [URL](https://scratchblocks.github.io/#?style=scratch3&script=when%20flag%20clicked%0Ago%20to%20x%3A(0)%20y%3A(0)%0Aturn%20cw%20(15)%20degrees%0Asay%20%5Bhello%5D%0A)
+- **Scratchblocks** Use [Scratchblocks](https://scratchblocks.github.io/#?style=scratch3&script=) to create PNG code blocks for online use or SVG code blocks for printed use. Save the code used for easy maintenance of the instructions. (Scratchblocks can be saved as a [URL](https://scratchblocks.github.io/#?style=scratch3&script=when%20flag%20clicked%0Ago%20to%20x%3A(0)%20y%3A(0)%0Aturn%20cw%20(15)%20degrees%0Asay%20%5Bhello%5D%0A))
+
+```
+https://scratchblocks.github.io/#?style=scratch3&script=when%20flag%20clicked%0Ago%20to%20x%3A(0)%20y%3A(0)%0Aturn%20cw%20(15)%20degrees%0Asay%20%5Bhello%5D%0A
+```
