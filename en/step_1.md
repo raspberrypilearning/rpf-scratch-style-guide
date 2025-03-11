@@ -38,7 +38,8 @@ go to x:(0) y:(0) // move to middle of stage
 
 ### 4. Motion and Positioning
 - **Coordinate System:** Be mindful of Scratch’s coordinate system, where `0, 0`{:class="block3motion"} is the centre. Clearly position sprites using `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates.
-- **Rotation Style:** Set rotation styles appropriately using code (`don't rotate`{:class="block3motion"},`left-right`{:class="block3motion"}, or `all around`{:class="block3motion"}) for expected behaviour during motion.
+- **Initialisation:** Always initialise `x, y`{:class="block3motion"} positions and `direction`{:class="block3motion"} using code blocks, rather than by using the user interface.
+- **Rotation Style:** Set rotation styles appropriately using code blocks (`don't rotate`{:class="block3motion"},`left-right`{:class="block3motion"}, or `all around`{:class="block3motion"}) for expected behaviour during motion.
 
 ```blocks3
 set rotation style [left-right v]
@@ -47,6 +48,7 @@ set rotation style [left-right v]
 ### 5. Looks and Sounds
 - **Costume Naming:** Clearly name costumes based on their purpose or action, like "walking 1" or "jumping pose".
 - **Sound Management:** Name sounds based on function (e.g., "jump sound", "background music"). Keep audio clips concise to maintain performance.
+- **Initialisation:** Always initialise `size`{:class="block3looks"} using code blocks, rather than by using the user interface.
 
 ### 6. Variables and Lists
 - **Scope:** Determine appropriate scope (sprite-specific or global) based on usage context. Use **global** scope as default unless sprite-specific is absolutely required.
